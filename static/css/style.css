@@ -469,8 +469,7 @@ body {
 }
 
 .timeline {
-  width: 100%;
-  height: auto;
+  height: 100vh;
   background-color: var(--white-five);
   color: var(--black);
   font-family: Titillium Web, sans-serif;
@@ -478,7 +477,7 @@ body {
 
 .timeline-title {
   margin-left: 15%;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .timeline-title h1 {
@@ -489,13 +488,13 @@ body {
 .timeline-title p {
   font-size: 1vw;
   font-weight: 300;
-  padding-bottom: 6%;
+  padding-bottom: 3%;
 }
 
 .timeline-details {
   margin-left: 15%;
   margin-top: 3%;
-  height: 25vw;
+  height: 23vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -528,6 +527,7 @@ body {
 .before-imgs img {
   width: 100%;
   height: auto;
+  border-radius: 2vw;
 }
 
 .markers {
@@ -674,7 +674,7 @@ body {
 .after-imgs .fillet-img {
   width: 15vw;
   height: 100%;
-  margin-top: 1.2vw;
+  margin-top: .1vw;
 }
 
 .after-imgs .fillet-img:nth-child(1) {
@@ -688,6 +688,7 @@ body {
 .after-imgs img {
   width: 100%;
   height: auto;
+  border-radius: 2vw;
 }
 
 .main-timeline-section {
