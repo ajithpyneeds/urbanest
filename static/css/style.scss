@@ -414,7 +414,7 @@ body {
 
 .area h3 {
     margin-top: -.5vw;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: 600;
     color: var(--dark-red);
 }
@@ -449,50 +449,184 @@ body {
     .timeline-details {
         margin-left: 15%;
         margin-top: 3%;
-        background-color: red;
         height: 25vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .before-imgs {
+        display: flex;
+        height: 30%;
+
+        .fillet-img {
+            width: 15vw;
+            height: 100%;
+        }
+
+        .fillet-img:nth-child(1) {
+            margin-left: 13vw;
+        }
+
+        .fillet-img:nth-child(2) {
+            margin-left: 26vw;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .markers {
+        height: 40%;
     }
 
     .hr-solid {
         border-bottom: 2px solid black;
-        height: 50%;
         margin-left: 3vw;
-    }
-
-    .circle {
-        height: 50px;
-        width: 50px;
-        border-radius: 25px;
-        color: black;
+        height: 50%;
     }
 
     .v-lines {
         display: flex;
 
-        .vl {
-            border-left: 2px solid green;
-            height: 6px;
-            margin-top: -4px;
+        .dot {
+            height: .6vw;
+            width: .6vw;
+            background-color: var(--dark-red);
+            border-radius: .3vw;
+            margin-top: -.65vw;
         }
 
-        .vl:nth-child(1) {
-            margin-left: 12vw;
+        .vl {
+            border-left: 2px solid var(--black);
+            height: 1.2vw;
+            margin-top: -.65vw;
         }
-        .vl:nth-child(2) {
-            margin-left: 15vw;
+
+        li {
+            display: flex;
+            flex-direction: column;
         }
-        .vl:nth-child(3) {
-            margin-left: 22vw;
+
+        h3 {
+            font-size: 2vw;
+            font-weight: 600;
         }
-        .vl:nth-child(4) {
-            margin-left: 10vw;
+
+        h6 {
+            font-size: 1vw;
+            font-weight: 600;
         }
-        .vl:nth-child(5) {
-            margin-left: 18vw;
+
+        li:nth-child(1) {
+            margin-left: 3vw;
+            margin-top: -3.3vw;
+
+            h3 {
+                margin-bottom: 1.2vw;
+                margin-left: -1.6vw;
+            }
+        }
+
+        li:nth-child(2) {
+            margin-left: 7vw;
+
+            h6 {
+                margin-left: -2vw;
+            }
+        }
+
+        li:nth-child(3) {
+            margin-left: 7vw;
+            margin-top: .25vw;
+
+            h3 {
+                margin-left: -1.6vw;
+            }
+        }
+
+        li:nth-child(4) {
+            margin-left: 5.5vw;
+            margin-top: -2.5vw;
+
+            h6 {
+                margin-bottom: 1.2vw;
+                margin-left: -1.6vw;
+            }
+        }
+
+        li:nth-child(5) {
+            margin-left: 11vw;
+            margin-top: -3.3vw;
+
+            h3 {
+                margin-bottom: 1.2vw;
+                margin-left: -1.6vw;
+            }
+        }
+
+        li:nth-child(6) {
+            margin-left: 6.5vw;
+
+            h6 {
+                margin-left: -1.2vw;
+            }
+        }
+   
+        li:nth-child(7) {
+            margin-left: 7vw;
+            margin-top: -2.5vw;
+
+            h6 {
+                margin-bottom: 1.2vw;
+                margin-left: -1.6vw;
+            }
+        }
+
+        li:nth-child(8) {
+            margin-left: 8vw;
+            margin-top: .25vw;
+
+            h3 {
+                margin-left: -1.6vw;
+            }
+        }
+
+        li:nth-child(9) {
+            margin-left: 4vw;
+            margin-top: -2.5vw;
+
+            h6 {
+                margin-bottom: 1.2vw;
+                margin-left: -2.5vw;
+            }
         }
     }
 
+    .after-imgs {
+        display: flex;
+        height: 30%;
 
+        .fillet-img {
+            width: 15vw;
+            height: 100%;
+            margin-top: 1.2vw;
+        }
+
+        .fillet-img:nth-child(1) {
+            margin-left: 32vw;
+        }
+
+        .fillet-img:nth-child(2) {
+            margin-left: 21vw;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 
 
 
